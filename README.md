@@ -6,5 +6,5 @@ current working features:
 * definition of player's and character's names
 * individual or randomized atributes for the character (user choice)
 
-*inportant advise*
+🚨🚨*inportant advise*🚨🚨
 you have to import *random2* and *emogi* library to work as pretended !
