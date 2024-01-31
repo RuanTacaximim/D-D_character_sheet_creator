@@ -2,15 +2,15 @@ from emoji import emojize
 from random2 import randrange
 
 #variavel para os emogis
-emg_dex = emojize(':person_cartwheeling:')
-emg_wis = emojize(':scroll:')
-emg_int = emojize(':brain:')
-emg_per = emojize(':eyes:')
-emg_luck = emojize(':four_leaf_clover:')
-emg_car = emojize(':new_moon_face:')
-emg_str = emojize(':person_lifting_weights:')
-emg_dice = emojize(':game_die:')
-emg_mcn = emojize(":slot_machine:")
+emg_dex = emojize(':person_cartwheeling: :')
+emg_wis = emojize(':scroll: :')
+emg_int = emojize(':brain: :')
+emg_per = emojize(':eye: :')
+emg_luck = emojize(':four_leaf_clover: :')
+emg_car = emojize(':new_moon_face: :')
+emg_str = emojize(':person_lifting_weights: :')
+emg_dice = emojize(':game_die: :')
+emg_mcn = emojize(":slot_machine: :")
 
 #print(emg_car,emg_dex,emg_int,emg_luck,emg_wis,emg_per,emg_str,emg_dice)(debug dos emogis)
 
@@ -31,10 +31,16 @@ def Atributos_auto():
     luck = randrange(1,20)
     strength = randrange (1,20)
     charisma = randrange (1,20)
+    
+    print("_"*20)
+    print("Personagem:",personagem)
     print("_"*20)
     print("Destreza",emg_dex,dexterity,"\n""Sabedoria",emg_wis,wisdom,"\n""Inteligência",emg_int,Inteligence,"\n""Percepsão",emg_per,perception) 
     print("Sorte",emg_luck,luck,"\n" "Força",emg_str,strength, "\n" "Carisma",emg_car,charisma)
     print("_"*20)
+    print("Jogador:",NomeJogador)
+    print("_"*20)
+
         
 
 #função para atributos rolados no dado fisico ou discord
@@ -48,8 +54,12 @@ def Atributos_manual():
     strength = int(input(emojize('digite a sua força ! :person_lifting_weights: :')))
     charisma = int (input(emojize('digite o quão charmoso tu é :new_moon_face: :')))
     print("_"*20)
+    print("Personagem:",personagem)
+    print("_"*20)
     print("Destreza",emg_dex,dexterity,"\n""Sabedoria",emg_wis,wisdom,"\n""Inteligência",emg_int,Inteligence,"\n""Percepsão",emg_per,perception) 
     print("Sorte",emg_luck,luck,"\n" "Força",emg_str,strength, "\n" "Carisma",emg_car,charisma)
+    print("_"*20)
+    print("Jogador:",NomeJogador)
     print("_"*20)
 #escolhe o algoritmo de contrução da ficha
 if Answer == 1:
