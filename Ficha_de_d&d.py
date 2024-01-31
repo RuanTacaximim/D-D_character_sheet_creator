@@ -16,8 +16,6 @@ NomeJogador = input('Digite seu nome !:')
 personagem = input('OK !, {} agora digite o nome do seu personagem !'.format(NomeJogador))
 print('Agora, você vai precisar usar um dado pra conseguir seu pontos de atributo (D20) OU aceitar os que vierem aqui ! \n \n Você quer rolar  os dados ?',emg_dice, '(1)' ' ou quer atributos aleatórios ?',emg_mcn, '(2)' '\n')
 Answer = int(input('1 ou 2 ? :'))
-A_A = False
-A_M = False
 #funcção para atributos aleatórios
 def Atributos_auto():
     dexterity = randrange(1,20)
