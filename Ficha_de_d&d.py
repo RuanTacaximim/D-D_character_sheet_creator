@@ -1,6 +1,5 @@
 from emoji import emojize
 from random2 import randrange
-
 #variavel para os emogis
 emg_dex = emojize(':person_cartwheeling: :')
 emg_wis = emojize(':scroll: :')
@@ -11,10 +10,7 @@ emg_car = emojize(':new_moon_face: :')
 emg_str = emojize(':person_lifting_weights: :')
 emg_dice = emojize(':game_die: :')
 emg_mcn = emojize(":slot_machine: :")
-
 #print(emg_car,emg_dex,emg_int,emg_luck,emg_wis,emg_per,emg_str,emg_dice)(debug dos emogis)
-
-
 print(emojize( ':crossed_swords:  TACAXI-RPG :crossed_swords:  (D&D simplicado)'))
 NomeJogador = input('Digite seu nome !:')
 personagem = input('OK !, {} agora digite o nome do seu personagem !'.format(NomeJogador))
@@ -31,7 +27,6 @@ def Atributos_auto():
     luck = randrange(1,20)
     strength = randrange (1,20)
     charisma = randrange (1,20)
-    
     print("_"*20)
     print("Personagem:",personagem)
     print("_"*20)
@@ -40,12 +35,8 @@ def Atributos_auto():
     print("_"*20)
     print("Jogador:",NomeJogador)
     print("_"*20)
-
-        
-
 #função para atributos rolados no dado fisico ou discord
 def Atributos_manual():
-    
     dexterity = int(input(emojize('digite sua destreza !:person_cartwheeling: :')))
     wisdom = int(input(emojize('digite sua sabedoria !:scroll: :')))
     Inteligence = int(input(emojize('digite a inteligencia !:brain: :')))
@@ -66,9 +57,8 @@ if Answer == 1:
     Atributos_manual()
 if Answer == 2:
     Atributos_auto()
-
 #TODO
-#0 tenho que aprender github     
+#0 tive a ideia de sortear nome de personagens de acordo com o sexo     
 #1 tava pensando em recomendar classes pelo resultado dos atributo
 #2 tenho que descobrir como criar uma interface de usuário para o programa
 #3 poder ser legal adicionar ao atributo o valor do bonus de raça
