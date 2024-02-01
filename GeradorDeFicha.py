@@ -77,7 +77,7 @@ def iniciar_programa():
 root = tk.Tk()
 root.title("Gerador de Fichas")
 
-background = tk.Frame(master = root, width= 600,height= 600, bg='black')
+background = tk.Frame(master = root, width= 600,height= 600, bg='magenta4')
 background.pack()
 
 
