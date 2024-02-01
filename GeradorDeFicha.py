@@ -19,7 +19,6 @@ def iniciar_programa():
     personagem = input('OK !, {} agora digite o nome do seu personagem !'.format(NomeJogador))
     print('Agora, você vai precisar usar um dado pra conseguir seu pontos de atributo (D20) OU aceitar os que vierem aqui ! \n \n Você quer rolar  os dados ?',emg_dice, '(1)' ' ou quer atributos aleatórios ?',emg_mcn, '(2)' '\n')
     Answer = int(input('1 ou 2 ? :'))
-    
     #funcção para atributos aleatórios
     def Atributos_auto():
         dexterity = randrange(4,20)
@@ -76,7 +75,6 @@ def iniciar_programa():
 
 root = tk.Tk()
 root.title("Gerador de Fichas")
-
 background = tk.Frame(master = root, width= 600,height= 600, bg='magenta4')
 background.pack()
 
