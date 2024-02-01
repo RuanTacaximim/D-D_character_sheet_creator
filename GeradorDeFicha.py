@@ -55,11 +55,12 @@ if Answer == 1:
     Atributos_manual()
 if Answer == 2:
     Atributos_auto()
-#TODO
+
+#TODO    
 #0 tive a ideia de sortear nome de personagens de acordo com o sexo     
 #1 tava pensando em recomendar classes pelo resultado dos atributo
 #2 tenho que descobrir como criar uma interface de usuário para o programa
 #3 poder ser legal adicionar ao atributo o valor do bonus de raça
 #4 pode ser legal adicionar a função para rolar dano de ataque e 
 #5 adicionar sub atributos e habilidades nos calculos
-        
+if __name__ == "__main__":
