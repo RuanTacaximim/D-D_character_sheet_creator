@@ -75,8 +75,15 @@ def iniciar_programa():
 
 
 root = tk.Tk()
+root.title("Gerador de Fichas")
+
+background = tk.Frame(master = root, width= 600,height= 600, bg='black')
+background.pack()
+
+
 def on_button_click():
     iniciar_programa()
 CRIAR = tk.Button( text="gerar ficha", command= on_button_click) 
 CRIAR.pack()
 root.mainloop()
+
