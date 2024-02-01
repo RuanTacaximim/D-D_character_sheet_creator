@@ -18,13 +18,13 @@ print('Agora, você vai precisar usar um dado pra conseguir seu pontos de atribu
 Answer = int(input('1 ou 2 ? :'))
 #funcção para atributos aleatórios
 def Atributos_auto():
-    dexterity = randrange(1,20)
-    wisdom =  randrange(1,20)
-    Inteligence = randrange(1,20)
-    perception = randrange(1,20)
-    luck = randrange(1,20)
-    strength = randrange (1,20)
-    charisma = randrange (1,20)
+    dexterity = randrange(4,20)
+    wisdom =  randrange(4,20)
+    Inteligence = randrange(4,20)
+    perception = randrange(4,20)
+    luck = randrange(4,20)
+    strength = randrange (4,20)
+    charisma = randrange (4,20)
     print("_"*20)
     print("Personagem:",personagem)
     print("_"*20)
@@ -50,11 +50,16 @@ def Atributos_manual():
     print("_"*20)
     print("Jogador:",NomeJogador)
     print("_"*20)
+
 #escolhe o algoritmo de contrução da ficha
 if Answer == 1:
     Atributos_manual()
 if Answer == 2:
     Atributos_auto()
+
+    
+
+
 
 #TODO    
 #0 tive a ideia de sortear nome de personagens de acordo com o sexo     
