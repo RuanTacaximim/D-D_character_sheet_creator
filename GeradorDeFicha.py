@@ -64,3 +64,5 @@ if Answer == 2:
 #4 pode ser legal adicionar a função para rolar dano de ataque e 
 #5 adicionar sub atributos e habilidades nos calculos
 if __name__ == "__main__":
+    print("executado manualmente!")
+    pass
