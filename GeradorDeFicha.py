@@ -25,7 +25,7 @@ def iniciar_programa():
         wisdom =  randrange(4,20)
         Inteligence = randrange(4,20)
         perception = randrange(4,20)
-        luck = randrange(4,20)
+        luck = randrange(1,20)
         strength = randrange (4,20)
         charisma = randrange (4,20)
         print("_"*20)
@@ -59,10 +59,6 @@ def iniciar_programa():
         Atributos_manual()
     if Answer == 2:
         Atributos_auto()
-
-    
-
-
 
 #TODO    
 #0 tive a ideia de sortear nome de personagens de acordo com o sexo     
